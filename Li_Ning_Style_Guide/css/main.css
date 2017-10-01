@@ -1,0 +1,307 @@
+/*
+  STYLE GUIDE STYLING
+  Default styling for the style guide
+*/
+
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica_Light;
+  padding: 2rem;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 1em 0;
+  border-bottom: 0.15em solid #333;
+}
+
+section h2 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+
+nav {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 0.15em solid #333;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  display: block;
+}
+
+ul.citations {
+  margin-left: 0.25em;
+  padding-left: 0.25em;
+}
+
+ul.citations li {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  padding-bottom: 1em;
+}
+
+ul.citations li strong {
+  font-weight: normal;
+  font-style: italic;
+}
+
+cite {
+  font-style: normal;
+}
+
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5em 0.5em;
+  color: white;
+  background-color: #0089bb;
+  border-radius: 0.25em;
+  text-decoration: none;
+	text-align: center;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav a{
+  color:white;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: #90cad5;
+  color:white;
+}
+
+
+/* Styling for the in-text link */
+.intext_link{
+  color:#0089bb;
+}
+.intext_link:hover, .intext_link:focus{
+  color:#90cad5;
+}
+
+
+/* Styling for the submit button */
+.button_submit {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: white;
+  background-color: #5a95b3;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button_submit:hover, .button_submit:focus {
+  background-color: #a0c1e0;
+  color:white;
+}
+
+
+/* Styling for the reset button */
+.button_reset {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: white;
+  background-color: #bfa277;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button_reset:hover, .button_reset:focus {
+  background-color: #e2d6a8;
+  color:white;
+}
+
+
+/* Styling for the  text input field and a label */
+label{
+	color:#5a95b3;
+	font-size: 1.2em;
+}
+
+input {
+    width: 50%;
+    padding: 0.5em 0.5em;
+    margin: 0.5em 0;
+    border: 0.2em solid #5a95b3;
+    border-radius: 0.5em;
+}
+
+
+
+
+
+/*
+  TEXT ELEMENTS -------------------
+*/
+
+/* styyling for the bulleted lists */
+.bulleted_list {
+	color:#5a95b3;
+}
+
+
+/* styling for the numberred lists */
+.numbered_list{
+color:#5a95b3;
+}
+
+
+/* styling for three levels of headings */
+h1.web_heading1{
+	font-size: 4em;
+}
+h2.web_heading2{
+	font-size: 3em;
+}
+h3.web_heading3{
+	font-size: 1.5em;
+}
+
+
+/* styling for paragraph */
+p{
+	font-size: 1em;
+}
+
+
+
+
+
+/*
+  COMBINED ELEMENTS -------------------
+*/
+
+
+/*styling for navigation*/
+.web_navigation, .grid_row{
+	  display:flex;
+}
+
+
+.web_navigation a{
+  color:white;
+  background-color:#5a95b3;
+  padding: 0.5em 0.5em;
+  margin-bottom: :0.25em;
+	margin-top: :0.25em;
+	margin: 1em;
+  border-radius: 0.25em;
+  text-decoration: none;
+	text-align: center;
+	width:15%;
+}
+
+.web_navigation_box a{
+  display:1 1 auto;
+}
+
+
+.web_navigation a:hover, .web_navigation a:focus {
+  background-color: #90cad5;
+  color:white;
+}
+
+
+/*styling for product/service listing*/
+.container{
+  display:flex;
+	flex-wrap: wrap;
+}
+
+.item{
+	flex-grow: 1;
+}
+
+
+/*styling for grid structure*/
+
+.grid1_row{
+	background-color: #90cad5;
+	width:100%;
+	margin:0.5em;
+	padding: 0.5em;
+	}
+
+.grid1_1, .grid1_2{
+		background-color: #90cad5;
+		width:50%;
+		margin:0.5em;
+		padding: 0.5em;
+}
+
+.grid2_1, .grid2_2, .grid2_3{
+		background-color: #90cad5;
+		width:33.33%;
+		margin:0.5em;
+		padding: 0.5em;
+}
+
+.grid3_1, .grid3_2, .grid3_3, .grid3_4{
+		background-color: #90cad5;
+		width:25%;
+		margin:0.5em;
+		padding: 0.5em;
+}
+
+/*styling for color swathces*/
+.color_swatches1{
+	background-color: #90cad5;
+	border-radius: 0.25em;
+	padding:0.5em;
+}
+
+.color_swatches2{
+	background-color: #0189bb;
+	border-radius: 0.25em;
+	padding:0.5em;
+}
+.color_swatches3{
+	background-color: #a0c2e0;
+	border-radius: 0.25em;
+	padding:0.5em;
+}
+.color_swatches4{
+	background-color: #5a95b3;
+	border-radius: 0.25em;
+	padding:0.5em;
+}
+.color_swatches5{
+	background-color: #e2d6a8;
+	border-radius: 0.25em;
+	padding:0.5em;
+}
+.color_swatches6{
+	background-color: #bfa176;
+	border-radius: 0.25em;
+	padding:0.5em;
+}

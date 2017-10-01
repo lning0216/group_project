@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width-of-device,initial-scale=1.0">
+
+    <title>P01 - Style Guide Template</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/flexbox.css" rel="stylesheet">
+
+  </head>
+
+
+  <body>
+
+    <h1 class="styleguide">P01 - Style Guide Template</h1>
+
+    <nav>
+
+      <p>On this page:</p>
+      <ul>
+        <li>
+          <a href="#interactive_elements">Interactive Elements</a>
+        </li>
+        <li>
+          <a href="#text_elements">Text Elements</a>
+        </li>
+        <li>
+          <a href="#combined_elements">Combined Elements</a>
+        </li>
+      </ul>
+
+      <p>Other pages:</p>
+      <ul>
+        <li><a href="http://www.sfu.ca/~lning/iat339/project1/flow_chart/#g=1&p=tv_home">User-flows</a>
+        <li><a href="Style_guide.html">Style Guide</a>
+        <li><a href="Citations.html">Citations</a>
+      </ul>
+
+    </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+      <!-- Navigation Button -->
+      <section>
+
+        <h2 class="styleguide">Navigation Button</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a class="button-nav" &gt;Home&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="button-nav">Home</a>
+
+      </section>
+
+
+      <!-- In text link -->
+      <section>
+
+        <h2 class="styleguide">In-text link</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.intext_link, .intext_link:hover, .intext_link:focus </p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a class="intext_link" href ="www.sfu.ca"&gt;in-text link&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a  class="intext_link" href ="www.sfu.ca">in-text link</a>
+
+      </section>
+
+
+      <!-- Submit Buttons  -->
+      <section>
+
+        <h2 class="styleguide">Submit Buttons</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button_submit,.button_submit:hover, .button_submit:focus</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a class="button_submit" href="#"&gt;Submit&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="button_submit" href="#">Submit</a>
+
+      </section>
+
+
+      <!-- Reset Buttons -->
+      <section>
+
+        <h2 class="styleguide">Reset Buttons</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button_reset, .button_reset:hover, .button_reset:focus </p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a class="button_reset" href="#"&gt;Reset&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="button_reset" href="#">Reset</a>
+
+      </section>
+
+    </section>
+
+
+
+    <!-- TEXT ELEMENTS SECTION  -->
+    <section id="text_elements">
+        <!-- Text Input Field  -->
+        <section>
+
+          <h2 class="styleguide">Text Input Field</h2>
+
+          <h3>CSS selector:</h3>
+          <p>label,input</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;label&gt;Email Address&lt;/label&gt;</code>
+          <code>&lt;form&gt;&lt;input type="email"&gt;&lt;/form&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <label>Email Address</label>
+          <form><input type="email"></form>
+
+        </section>
+
+        <!-- headings -->
+        <section>
+
+          <h2 class="styleguide">Headings</h2>
+
+          <h3>CSS selector:</h3>
+          <p>h1.web_heading1, h2.web_heading2, h3.web_heading3</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;h1 class="web_heading1"&gt;Simplive&lt;/h1&gt;</code>
+          <code>&lt;h2 class="web_heading2"&gt;Simplive&lt;/h2&gt;</code>
+          <code>&lt;h3 class="web_heading3"&gt;Simplive&lt;/h3&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <h1 class="web_heading1">Simplive</h1>
+          <h2 class="web_heading2">Simplive</h2>
+          <h3 class="web_heading3">Simplive</h3>
+
+        </section>
+
+        <!-- Paragraphs -->
+        <section>
+
+          <h2 class="styleguide">Paragraphs</h2>
+
+          <h3>CSS selector:</h3>
+          <p>p</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;p&gt;Simplive aims to...&lt;/p&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <p>Simplive aims to provide the custmers with simple and quality life.
+             What you want might not be what you need.
+             A simple life can release your stress and bring more happiness.</p>
+
+        </section>
+
+      <!-- Bulleted Lists -->
+      <section>
+
+        <h2 class="styleguide">Bulleted Lists</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.bulleted_list</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;ul class="bulleted_list"&gt;</code>
+          <code>&lt;li&gt;bed&lt;li&gt;</code>
+          <code>&lt;li&gt;sofa&lt;li&gt;</code>
+          <code>&lt;li&gt;chair&lt;li&gt;</code>
+          <code>&lt;li&gt;desk&lt;li&gt;</code>
+        <code>&lt;/ul&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <ul class="bulleted_list">
+          <li>bed</li>
+          <li>sofa</li>
+          <li>chair</li>
+          <li>desk</li>
+        </ul>
+
+      </section>
+
+      <!-- Numbered Lists -->
+      <section>
+
+        <h2 class="styleguide">Numbered Lists</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.numbered_list</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;ol class="bulleted_list"&gt;</code>
+          <code>&lt;li&gt;bed&lt;li&gt;</code>
+          <code>&lt;li&gt;sofa&lt;li&gt;</code>
+          <code>&lt;li&gt;chair&lt;li&gt;</code>
+          <code>&lt;li&gt;desk&lt;li&gt;</code>
+        <code>&lt;/ol&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <ol class="numbered_list">
+          <li>bed</li>
+          <li>sofa</li>
+          <li>chair</li>
+          <li>desk</li>
+        </ol>
+
+      </section>
+
+    </section>
+
+
+
+    <!-- // COMBINED ELEMENTS SECTION -->
+    <section id="combined_elements">
+
+      <!--Main navigation -->
+      <section>
+
+        <h2 class="styleguide">Your main navigation</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.web_navigation a, .web_navigation_box a, .web_navigation a:hover, .web_navigation a:focus</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;nav class="web_navigation"&gt;</code>
+          <code>&lt;a href =""&gt;Home&lt;/a&gt;</code>
+          <code>&lt;a href =""&gt;Showroom&lt;/a&gt;</code>
+          <code>&lt;a href =""&gt;Products&lt;/a&gt;</code>
+          <code>&lt;a href =""&gt;Contact&lt;/a&gt;</code>
+        <code>&lt;/nav &gt;</code>
+
+        <h3>Rendered element:</h3>
+        <nav class="web_navigation">
+          <a href ="#">Home</a>
+          <a href ="#">Showroom</a>
+          <a href ="#">Products</a>
+          <a href ="#">Contact</a>
+        </nav>
+
+      </section>
+
+
+      <!-- A product/service listing -->
+      <section>
+
+        <h2 class="styleguide">A Product Listing</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.container, .item</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;div class="container"&gt;</code>
+        <code>&lt;div class="item"&gt;</code>
+        <code>&lt;img src="img/ArmchairMerano.jpg" alt="Armchair Merano"&gt;</code>
+        <code>&lt;/div&gt;</code>
+        <code>&lt;/div&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <div class="container">
+
+          <div class="item">
+            <img src="img/ArmchairMerano.jpg" alt="Armchair Merano">
+          </div>
+
+          <div class="item">
+            <img src="img/ChairMerano.jpg" alt="Chair Merano">
+          </div>
+
+          <div class="item">
+            <img src="img/BarstoolMerano.jpg" alt="Barstool Merano">
+          </div>
+
+          <div class="item">
+            <img src="img/ArmchairStockholm.jpg" alt="Armchair Stockholm">
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Website Grid Structure -->
+      <section>
+
+        <h2 class="styleguide">Website Grid Structure</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.grid1_row, .grid1_1, .grid1_2,.grid2_1, .grid2_2, .grid2_3,.grid3_1, .grid3_2, .grid3_3, .grid3_4</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;div class="grid_row"&gt;</code>
+        <code>&lt;div class="grid1_1"&gt;&lt;/div&gt;</code>
+        <code>&lt;/div&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <div class="grid_row">
+
+          <div class="grid1_1">grid1_1</div>
+          <div class="grid1_2">grid1_2</div>
+        </div>
+
+        <div class="grid_row">
+          <div class="grid2_1">grid2_1</div>
+          <div class="grid2_2">grid2_2</div>
+          <div class="grid2_3">grid2_3</div>
+        </div>
+
+        <div class="grid_row">
+          <div class="grid3_1">grid3_1</div>
+          <div class="grid3_2">grid3_2</div>
+          <div class="grid3_3">grid3_3</div>
+          <div class="grid3_4">grid3_4</div>
+        </div>
+
+      </section>
+
+      <!-- Website colour swatches -->
+      <section>
+
+        <h2 class="styleguide">Website colour swatches</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.color_swathces1, .color_swathces2,.color_swathces3,.color_swathces4,.color_swathces5,.color_swathces6, </p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;p class="color_swatches1"&gt;90cad5&lt;/p&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <p class="color_swatches1">90cad5</p>
+        <p class="color_swatches2">0189bb</p>
+        <p class="color_swatches3">a0c2e0</p>
+        <p class="color_swatches4">5a95b3</p>
+        <p class="color_swatches5">e2d6a8</p>
+        <p class="color_swatches6">bfa176</p>
+
+
+      </section>
+
+    </section>
+
+  </body>
+</html>
