@@ -1,5 +1,9 @@
 *;*::after, *::before{
   box-sizing;border-box;
+  display: flex;
+	/*-webkit-flex:  100px;
+	-ms-flex:  100px;*/
+	flex-wrap: Wrap;
 }
 .container{
   display:flex;
