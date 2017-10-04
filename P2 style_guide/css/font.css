@@ -1,0 +1,16 @@
+@font-face{
+  font-family:"Univers";
+  font-weight: normal;
+  font-style: normal;
+
+  src:
+      url("Univers/Univers.ttf") format("truetype");
+}
+
+body{
+  font-family: "Univers";
+  font-weight: bold;
+  font-style: normal;
+  src:
+      url("Univers/Univers.ttf") format("truetype");
+}

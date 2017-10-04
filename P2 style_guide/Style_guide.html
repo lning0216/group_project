@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <title>Simplicism: Style Guide</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/flexbox.css" rel="stylesheet">
+    <link href="css/font.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <h1 class="header">Simplicism: Style Guide</h1>
+
+    <nav>
+
+      <p>
+        On this page:
+      </p>
+      <ul>
+        <li>
+          <a href="#interactive_elements">Interactive Elements</a>
+        </li>
+        <li>
+          <a href="#text_elements">Text Elements</a>
+        </li>
+        <li>
+          <a href="#combined_elements">Combined Elements</a>
+        </li>
+      </ul>
+
+      <p>Other pages:</p>
+      <ul>
+        <li><a href="http://www.sfu.ca/~aqsun/iat339/User-flow/#g=1&p=homepage">User-flows</a>
+        <li><a href="Style_guide.html">Style Guide</a>
+        <li><a href="Citations.html">Citations</a>
+      </ul>
+
+    </nav>
+
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+      <!-- Default Button styling section -->
+      <section>
+
+        <h2>Navigation Button</h2>
+
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="button-nav"&gt;link button&lt;/a&gt;</code>
+
+
+        <h4>Rendered element:</h4>
+        <a href="#" class="button-nav" >Home</a>
+
+      </section>
+
+
+      <!-- In text link -->
+      <section>
+        <h2>In-text link</h2>
+        <h4>CSS selector:</h4>
+        <p>.intext_link, .intext_link:hover, .intext_link:focus</p>
+        <h4>Sample code:</h4>
+        <code>&lt;a class="intext_link" href ="www.sfu.ca"&gt;in-text link&lt;/a&gt;</code>
+        <h4>Rendered element:</h4>
+        <p><a class="intext_link" href ="www.sfu.ca">in-text link</a></p>
+
+      </section>
+
+
+      <!-- Submit Buttons  -->
+      <section>
+        <h2>Submit Buttons</h2>
+        <h4>CSS selector:</h4>
+        <p>.button_submit,.button_submit:hover, .button_submit:focus</p>
+        <h4>Sample code:</h4>
+        <code>&lt;a class="button_submit" href="#"&gt;Submit&lt;/a&gt;</code>
+        <h4>Rendered element:</h4>
+        <p><a class="button_submit" href="#">Submit</a></p>
+      </section>
+
+
+      <!-- Reset Buttons  -->
+      <section>
+        <h2>Reset  Buttons</h2>
+        <h4>CSS selector:</h4>
+        <p>.button_reset, .button_reset:hover, .button_reset:focus</p>
+        <h4>Sample code:</h4>
+        <code>&lt;a class="button_reset" href="#"&gt;Reset&lt;/a&gt;</code>
+        <h4>Rendered element:</h4>
+          <p><a class="button_reset" href="#">Reset</a></p>
+       </section>
+
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+        <!-- Text Input Field  -->
+      <section>
+        <h2>Text Input Field</h2>
+        <h4>CSS selector:</h4>
+        <p>label,input</p>
+        <h4>Sample code:</h4>
+        <code>&lt;label&gt;Email Address&lt;/label&gt;</code>
+        <code>&lt;form&gt;&lt;input type="email"&gt;&lt;/form&gt;</code>
+        <h4>Rendered element:</h4>
+        <label for="email">Email Address</label>
+        <form><input type="email" name="email" id="email"></form>
+      </section>
+
+      <!-- headings -->
+      <section>
+        <h2>Headings</h2>
+        <h4>CSS selector:</h4>
+        <p>h2,h3,h4,h5</p>
+        <h4>h1.web_heading1, h2.web_heading2, h3.web_heading3</h4>
+        <code>&lt;h2 class="web_heading1&gt;Simplive&lt;/h2&gt;</code>
+        <code>&lt;h3 class="web_heading1&gt;Simplive&lt;/h3&gt;</code>
+        <code>&lt;h4 class="web_heading1&gt;Simplive&lt;/h4&gt;</code>
+        <code>&lt;h5 class="web_heading1&gt;Simplive&lt;/h5&gt;</code>
+        <h4>Rendered element:</h4>
+                <h2 class="web_heading1">Simplive</h2>
+                <h3 class="web_heading2">Simplive</h3>
+                <h4 class="web_heading3">Simplive</h4>
+                <h5 class="web_heading3">Simplive</h5>
+      </section>
+
+
+      <!-- Paragraphs -->
+      <section>
+        <h2>Paragraphs</h2>
+        <h4>CSS selector:</h4>
+        <p>p</p>
+        <h4>Sample code:</h4>
+        <code>&lt;p&gt;Simplive aims to...&lt;p&gt;</code>
+        <h4>Rendered element:</h4>
+        <p>Simplive aims to provide the custmers with simple and quality life.
+           What you want might not be what you need.
+           A simple life can release your stress and bring more happiness.</p>
+      </section>
+
+      <!-- Bulleted Lists -->
+      <section>
+        <h2>Bulleted Lists</h2>
+        <h4>CSS selector:</h4>
+        <p>ul</p>
+        <h4>Sample code:</h4>
+        <code>&lt;ul class="bulleted_list"&gt;</code>
+          <code>&lt;li&gt;bed&lt;li&gt;</code>
+          <code>&lt;li&gt;sofa&lt;li&gt;</code>
+          <code>&lt;li&gt;chair&lt;li&gt;</code>
+          <code>&lt;li&gt;desk&lt;li&gt;</code>
+        <code>&lt;/ul&gt;</code>
+         <h4>Rendered element:</h4>
+         <ul class="bulleted_list">
+           <li>bed</li>
+           <li>sofa</li>
+           <li>chair</li>
+           <li>desk</li>
+         </ul>
+      </section>
+
+
+      <!-- Numbered Lists -->
+      <section>
+        <h2>Numbered Lists</h2>
+        <h4>CSS selector:</h4>
+        <p>ol</p>
+        <h4>Sample code:</h4>
+        <code>&lt;ol class="bulleted_list"&gt;</code>
+          <code>&lt;li&gt;bed&lt;li&gt;</code>
+          <code>&lt;li&gt;sofa&lt;li&gt;</code>
+          <code>&lt;li&gt;chair&lt;li&gt;</code>
+          <code>&lt;li&gt;desk&lt;li&gt;</code>
+        <code>&lt;/ol&gt;</code>
+
+         <h4>Rendered element:</h4>
+         <ol class="numbered_list">
+           <li>bed</li>
+           <li>sofa</li>
+           <li>chair</li>
+           <li>desk</li>
+         </ol>
+
+      </section>
+
+    </section>
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+      <!--Main navigation -->
+      <section>
+        <h3>Main Navigation</h3>
+        <h4>CSS selector:</h4>
+        <p>.web_navigation a, .web_navigation_box a, .web_navigation a:hover, .web_navigation a:focus</p>
+
+        <h4>Sample code:</h4>
+        <!-- <code>&lt;a class="nav-main" href="#"&gt;&lt;img class="logoImage" src="logo.png" alt="logo"&gt;&lt;/a&gt;</code> -->
+        <code>&lt;nav class="web_navigation"&gt;</code>
+        <code>&lt;a class="web_nav" href="#"&gt;Home&lt;/a&gt;</code>
+        <code>&lt;a class="web_nav" href="#"&gt;Showroom&lt;/a&gt;</code>
+        <code>&lt;a class="web_nav" href="#"&gt;Products&lt;/a&gt;</code>
+        <code>&lt;a class="web_nav" href="#"&gt;Contact&lt;/a&gt;</code>
+        <code>&lt;img class="CartIcon" src="cart.png" alt="cart"&gt;</code>
+        <h4>Rendered element:</h4>
+          <!-- <a class="nav-main" href="#"><img class="logoImage" src="logo.png" alt="logo"></a> -->
+          <nav class="web_navigation">
+          <a class="web_nav" href="#">Home</a>
+          <a class="web_nav" href="#">Showroom</a>
+          <a class="web_nav" href="#">Products</a>
+          <a class="web_nav" href="#">Contact</a>
+          <img class="CartIcon" src="cart.jpg" alt="cart">
+
+      </section>
+
+
+      <!-- A product/service listing -->
+      <section>
+        <h3>Product Listing</h3>
+        <h4>CSS selector:</h4>
+        <p>.box, .Prod-list1, .Prod-list2, .Prod-list3, .Prod-list4,</p>
+        <h4>Sample code:</h4>
+        <code>&lt;div class="box"&gt;</code>
+          <code>&lt;figure&gt;</code>
+          <code>&lt;img class="Prod-list1" src="11.png" alt="Armchair Merano"&gt;</code>
+          <code>&lt;figcaption&gt;Armchair Merano&lt;/figcaption&gt;</code>
+          <code>&lt;/figure&gt;</code>
+          <code>&lt;/div&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <div class="box">
+
+            <div class="Prod-list1">
+            <figure>
+            <img src="11.jpg" alt="Armchair Merano">
+            <figcaption>Armchair Merano</figcaption>
+            </figure>
+            </div>
+
+            <div class="Prod-list2">
+          <figure>
+            <img src="22.jpg" alt="Chair Merano">
+            <figcaption>Chair Merano</figcaption>
+          </figure>
+          </div>
+
+          <div class="Prod-list3">
+          <figure>
+            <img src="3.jpg" alt="Barstool Merano">
+            <figcaption>Barstool Merano</figcaption>
+          </figure>
+          </div>
+
+          <div class="Prod-list4">
+          <figure>
+            <img src="4.jpg" alt="Armchair Stockholm" >
+            <figcaption>Armchair Stockholm</figcaption>
+          </figure>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Website Color Swatches -->
+      <section>
+        <h3>Website Color Swatches</h3>
+        <h4>CSS selector:</h4>
+        <p>.Color1, .Color2, .Color3, .Color4, .Color5, .Color6</p>
+        <h4>Sample code:</h4>
+        <code>&lt;div class="Color2"&gt;#90cad5&lt;/div&gt;</code>
+        <code>&lt;div class="Color1"&gt;#0189bb&lt;/div&gt;</code>
+        <code>&lt;div class="Color3"&gt;#a0c2e0E&lt;/div&gt;</code>
+        <code>&lt;div class="Color4"&gt;#5a95b3&lt;/div&gt;</code>
+        <h4>Rendered element:</h4>
+          <div class="Color1">#0189bb</div>
+          <div class="Color3">#a0c2e0</div>
+          <div class="Color4">#5a95b3</div>
+          <div class="Color2">#90cad5</div>
+          <div class="Color5">#e2d6a8</div>
+          <div class="Color6">#bfa176</div>
+
+    </section>
+
+        <!-- Website Grid Structure -->
+        <section>
+          <h3>The Grid Structure</h3>
+          <h4>CSS selector:</h4>
+          <p>.grid-1-1, .grid-1-2, .grid-1-3, .grid-2-1, .grid-2-4, .grid-2-3</p>
+          <h4>Sample code:</h4>
+          <code>&lt;div class="grid-1-1"&gt;&lt;p&gt;Grid1-1: Menu&lt;/p&gt;&lt;/div&gt;</code>
+          <code>&lt;div class="grid-1-2"&gt;&lt;p&gt;Grid1-2: Image1&lt;/p&gt;&lt;/div&gt;</code>
+          <code>&lt;div class="grid-1-2"&gt;&lt;p&gt;Grid1-2: Image2&lt;/p&gt;&lt;/div&gt;</code>
+          <code>&lt;div class="grid-1-1"&gt;&lt;p&gt;Grid1-1: Header&lt;/p&gt;&lt;/div&gt;</code>
+          <h4>Rendered element:</h4>
+
+            <h5>Layout 1</h5>
+              <div class="flexbox">
+              <div class="grid1_0"><p>grid1_0</p></div>
+              <div class="grid1_1"><p>grid1_1</p></div>
+              <div class="grid1_1"><p>grid1_2</p></div>
+              <div class="grid2_1"><p>grid2_1</p></div>
+              <div class="grid2_1"><p>grid2_2</p></div>
+              <div class="grid2_1"><p>grid2_3</p></div>
+              <div class="grid3_1"><p>grid3_1</p></div>
+              <div class="grid3_1"><p>grid3_2</p></div>
+              <div class="grid3_1"><p>grid3_3</p></div>
+              <div class="grid3_1"><p>grid3_4</p></div>
+            </div>
+
+      </section>
+
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+  </body>
+</html>
