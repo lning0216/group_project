@@ -1,16 +1,16 @@
 @font-face{
-  font-family:"Univers";
+  font-family:"Helvetica-Normal";
   font-weight: normal;
   font-style: normal;
 
   src:
-      url("Univers/Univers.ttf") format("truetype");
+      url("helvetica/Helvetica-Normal.ttf") format("truetype");
 }
 
 body{
-  font-family: "Univers";
+  font-family: "Helvetica-Normal";
   font-weight: bold;
   font-style: normal;
   src:
-      url("Univers/Univers.ttf") format("truetype");
+      url("helvetica/Helvetica-Normal.ttf") format("truetype");
 }

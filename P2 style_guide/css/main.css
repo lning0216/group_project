@@ -4,7 +4,7 @@
 */
 
 body {
-  font-family: sans-serif;
+  font-family: Helvetica-Normal;
   padding: 2rem;
   color: #58595B;
 }
@@ -89,43 +89,46 @@ cite {
 */
 
 /* Styling for the navigation button */
-.button-nav {
-  display: inline-block;
-  padding: 0.5em 0.75em;
-  color: #FFF;
-  background-color: #0089bb;
-  border-radius: 0.25em;
+
+
+.button-nav a {
   text-decoration: none;
-  -webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
+  color:black;
 }
 
-.button-nav:hover, .button-nav:focus  {
-  background-color:#FFF;
-  border: 0.1em solid;
-  border-color: #0089bb;
-  color: #0089bb;
-  padding: 0.4em 0.65em;
+.button-nav a:hover, .button-nav a:focus  {
+   color:gray;
+	/*text-decoration-line: underline;*/
+	 border-bottom: 0.1em solid gray;
+	 border-radius: 0.1rem;
 }
 
+/* Styling for the intext_link */
+.intext_link{
+  color: #0189bb;
+}
+
+.intext_link:hover, .intext-link:focus{
+   color: #90cad5;
+}
 
 /* Styling for the submit button */
 .button_submit {
   padding: 0.5em 0.75em;
   color: #FFF;
-  background-color: #5a95b3;
+  background-color: #0189bb;
   border-radius: 0.25em;
   text-decoration: none;
-  -webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
+  /*-webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;*/
 }
 
 .button_submit:hover, .button_submit:focus {
-  background-color:#FFF;
-  border: 0.1em solid;
-  border-color: #5a95b3;
-  color: #5a95b3;
-  padding: 0.4em 0.65em;
+  background-color:#90cad5;
+  /*border: 0.1em solid;*/
+  /*border-color: #5a95b3;*/
+  color: #white;
+  /*padding: 0.4em 0.65em;*/
 }
 
 
@@ -136,16 +139,16 @@ cite {
   background-color: #bfa277;
   border-radius: 0.25em;
   text-decoration: none;
-  -webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
+  /*-webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;*/
 }
 
 .button_reset:hover, .button_reset:focus {
-  background-color:#FFF;
-  border: 0.1em solid;
-  border-color: #bfa277;
-  color: #bfa277;
-  padding: 0.4em 0.65em;
+  background-color:#e2d6a8;
+  /*border: 0.1em solid;
+  border-color: #bfa277;*/
+  color: #white;
+  /*padding: 0.4em 0.65em;*/
 }
 
 
@@ -203,7 +206,7 @@ color:#5a95b3;
 
 
 .web_navigation a{
-  color:gray;
+  color:black;
   text-decoration: none;
 	text-align: center;
 }
@@ -212,8 +215,8 @@ color:#5a95b3;
 .web_navigation a:hover, .web_navigation a:focus {
   color:gray;
 	/*text-decoration-line: underline;*/
-	 border-bottom: 0.1em solid gray;
-	 border-radius: 2px;
+	border-bottom: 0.1em solid gray;
+	border-radius: 0.1rem;
 }
 
 
@@ -279,14 +282,13 @@ flex-wrap: wrap;
 }
 
 img {
-  height: 100px;
+  height: 15em;
 }
 
 
 .Prod-list1  .Prod-list2  .Prod-list3 .Prod-list4{
   flex-grow: 1;
-  width: 300px;
-
+  width: 25%;
 }
 
 figcaption{
