@@ -278,7 +278,8 @@ h3.web_heading3{
   background-color: #D1D3D4;
   margin-bottom: 0.2em;
   width: 100%;
-  border-color: white;
+  /*border-color: white;
+  border-style: solid;*/
 
 
 }
@@ -300,40 +301,6 @@ h3.web_heading3{
 
 }
 
-
-
-
-
-
-
-
-/*.grid1_row{
-	background-color: #90cad5;
-	width:100%;
-	margin:0.5em;
-	padding: 0.5em;
-	}
-
-.grid1_1, .grid1_2{
-		background-color: #90cad5;
-		width:50%;
-		margin:0.5em;
-		padding: 0.5em;
-}
-
-.grid2_1, .grid2_2, .grid2_3{
-		background-color: #90cad5;
-		width:33.33%;
-		margin:0.5em;
-		padding: 0.5em;
-}
-
-.grid3_1, .grid3_2, .grid3_3, .grid3_4{
-		background-color: #90cad5;
-		width:25%;
-		margin:0.5em;
-		padding: 0.5em;
-}*/
 
 /*styling for color swathces*/
 .color_swatches1{
