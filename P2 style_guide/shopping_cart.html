@@ -3,30 +3,71 @@
   <head>
     <title>Shopping Cart</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/grid.css">
   </head>
   <body>
 
     <h1>Here is what you are getting</h1>
-    <div class="shopping_cart_box">
-      <div class="shopping_cart_object">
+    <div class="flex-container-shopping-cart">
+
+      <div class="flex-item-shopping-cart">
+        <img src="image/armchair_merano.jpg" alt="a wood chair with curved seat">
+      </div>
+
+      <div class="flex-item-shopping-cart">
         <h2>Name</h2>
+        <h3>Armchair Merano </h3>
       </div>
 
-      <div class="shopping_cart_object">
+      <div class="flex-item-shopping-cart">
         <h2>Number</h2>
+          <form>
+            <input type="number">
+          </form>
       </div>
 
-      <div class="shopping_cart_object">
+      <div class="flex-item-shopping-cart">
         <h2>Price</h2>
+        <h3>$100</h3>
       </div>
 
     </div>
 
-      <img src="image/chair_merano.jpg" alt="chair merano" >
-      <h3>Chair Merano</h3>
-      <form input type="number" name="number" id="number" ></form>
-      <h3>$100</h3>
+    <div class="flex-container-shopping-cart">
+
+      <div class="flex-item-shopping-cart">
+				<img src="image/armchair_stockholm.jpg" alt="a wood chair with bended seat">
+			</div>
+
+
+      <div class="flex-item-shopping-cart">
+        <h3>Armchair Merano </h3>
+      </div>
+
+      <div class="flex-item-shopping-cart">
+        <h2>Number</h2>
+          <form>
+            <input type="number">
+          </form>
+      </div>
+
+      <div class="flex-item-shopping-cart">
+        <h3>$120</h3>
+      </div>
+    </div>
+
+    <div class="flex-container-shopping-cart">
+
+      <div class="flex-item-shopping-cart-pay">
+        <h3>Subtotal: $ 220</h3>
+      </div>
+
+      <div class="flex-item-shopping-cart-pay">
+        <a class="flex-item-button" href="pay_now.html">Pay Now</a>
+      </div>
+
+    </div>
+
 
   </body>
 </html>
