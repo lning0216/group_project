@@ -20,28 +20,41 @@
 
   margin: 5em;
   /*justify-content: center;*/
-  border: 0.1em solid black;
-
-
-}
+  }
 
 .flex-item-shopping-cart{
 	/*-webkit-flex: 1 1 400px;
 	-ms-flex: 1 1 400px;
 	flex: 1 1 400px;*/
+	/*border: 0.1em solid green;*/
 	width: 25%;
 }
 
-.flex-item-shopping-cart-pay{
-	/*-webkit-flex: 1 1 400px;
-	-ms-flex: 1 1 400px;
-	flex: 1 1 400px;*/
-	width: 10%;
-	flex-direction:  column-reverse;
+.flex-container-pay{
+	display: -webkit-flex;
+  display: -ms-flexbox;
+	display:flex;
+
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+	-webkit-justify-content: end;
+	-ms-justify-content: end;
+	justify-content:flex-end;
+
+	margin: 5em;
+}
+
+.flex-item-pay{
+	margin-left: 2em;
+	/*margin-right: 2em;*/
+
 
 }
 
 .flex-item-button{
+	margin-top: 2em;
 	padding: 0.5em 0.75em;
 	color: #FFF;
 	background-color: #0189bb;
@@ -83,7 +96,7 @@ color: #white;
 }
 
 
-/*Pay Now Layout */
+/*Pay Now Layout 33.33%*/
 .flex-container-pay-now{
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -97,7 +110,8 @@ color: #white;
 	-ms-justify-content: space-around;
 	justify-content: space-around;
 
-  margin: 5em;
+  margin-left: : 5em;
+	margin-right: 5em;
   /*justify-content: center;*/
   border: 0.1em solid black;
   /*text-decoration: underline;*/
@@ -106,11 +120,24 @@ color: #white;
 .flex-item-pay-now{
   padding: 2em;
   width:33.33%;
-  /*max-height: 10em;*/
   align-items:right;
-  text-align: left;
-  /*height:5em;*/
+  text-align: center;
+	border: 0.1em solid black;
+
 }
+
+/*submenu layout 50%*/
+.flex-container-pay-now-sub{
+
+	padding-left: 2em;
+	padding-bottom: 2em;
+	width:50%;
+	align-items:right;
+	text-align: left;
+	border: 0.1em solid black;
+}
+
+
 
 /*Confirm Order layout */
 .flex-container-confirm-order{
