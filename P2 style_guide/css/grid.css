@@ -2,10 +2,8 @@
 	box-sizing: border-box;
 }
 
-
-
 /*Shopping Cart Page layout */
-.flex-container-shopping-cart{
+.flex-container{
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -14,36 +12,20 @@
 	-ms-flex-wrap: wrap;
   flex-wrap: wrap;
 
-  -webkit-justify-content: space-around;
-	-ms-justify-content: space-around;
-	justify-content: space-around;
+  -webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
 
   margin: 5em;
   /*justify-content: center;*/
   }
 
-.flex-item-shopping-cart{
+.flex-item{
 	/*-webkit-flex: 1 1 400px;
 	-ms-flex: 1 1 400px;
 	flex: 1 1 400px;*/
 	/*border: 0.1em solid green;*/
 	width: 25%;
-}
-
-.flex-container-pay{
-	display: -webkit-flex;
-  display: -ms-flexbox;
-	display:flex;
-
-	-webkit-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-
-	-webkit-justify-content: end;
-	-ms-justify-content: end;
-	justify-content:flex-end;
-
-	margin: 5em;
 }
 
 .flex-item-pay{
@@ -80,7 +62,15 @@
 
 
 
+.shopping_cart_navigation{
+	text-decoration: none;
 
+
+}
+
+.shopping_cart_navigation:hover, .shopping_cart_navigation:focus{
+	text-decoration: underline;
+}
 
 .flex-item-button:hover, .flex-item-button:focus{
 background-color:#90cad5;
@@ -96,27 +86,6 @@ color: #white;
 }
 
 
-/*Pay Now Layout 33.33%*/
-.flex-container-pay-now{
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-
-  -webkit-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-
-  -webkit-justify-content: space-around;
-	-ms-justify-content: space-around;
-	justify-content: space-around;
-
-  margin-left: : 5em;
-	margin-right: 5em;
-  /*justify-content: center;*/
-  border: 0.1em solid black;
-  /*text-decoration: underline;*/
-}
-
 .flex-item-pay-now{
   padding: 2em;
   width:33.33%;
@@ -128,7 +97,6 @@ color: #white;
 
 /*submenu layout 50%*/
 .flex-container-pay-now-sub{
-
 	padding-left: 2em;
 	padding-bottom: 2em;
 	width:50%;
@@ -140,24 +108,6 @@ color: #white;
 
 
 /*Confirm Order layout */
-.flex-container-confirm-order{
-  display: -webkit-flex;
-  display: -ms-flex-box;
-  display: flex;
-
-  -webkit-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-
-  -webkit-justify-content: space-around;
-	-ms-justify-content: space-around;
-	justify-content: space-around;
-
-  margin: 5em;
-  /*justify-content: center;*/
-  border: 0.1em solid black;
-  /*text-decoration: underline;*/
-}
 
 .flex-item-confirm-order{
   padding: 2em;

@@ -282,7 +282,8 @@ flex-wrap: wrap;
 }
 
 img {
-  height: 15em;
+  height: auto;
+  max-width: 100%;
 }
 
 
@@ -381,7 +382,7 @@ text-align: center;
   .grid4_3{
     width: 75%;
   }
-  
+
   .grid4_1{
     width: 25%;
   }
