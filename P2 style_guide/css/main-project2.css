@@ -219,6 +219,18 @@ color:#5a95b3;
 	border-radius: 0.1rem;
 }
 
+
+@media (max-width: 50.62em){
+  ul.web_navigation li{
+    padding: 0.1em 3.5em;
+  }
+
+  .cart_nav{
+    display: none;
+  }
+}
+
+
 @media (max-width: 60.18em){
   ul.web_navigation li{
     padding: 0.1em 1.5em;
@@ -242,6 +254,7 @@ color:#5a95b3;
 
 
 
+
 /*.logoImage{
   margin-bottom: -0.5em;
   height:69.75px;
@@ -258,7 +271,8 @@ flex-wrap: wrap;
 }
 
 img {
-  /*height: 15em;*/
+  /*height: auto;
+  max-width: 100%;*/
 }
 
 
