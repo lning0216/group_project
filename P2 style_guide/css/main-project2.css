@@ -13,7 +13,7 @@ body {
 section:not([id]) {
   margin: 1em 0;
   padding: 1em 0;
-  border-bottom: 0.05em solid #A7A9AC;
+  /*border-bottom: 0.05em solid #A7A9AC;*/
 }
 
 section h2 {
@@ -33,9 +33,9 @@ code{
 }
 
 nav {
-  margin-bottom: 1em;
-  padding-bottom: 1em;
-  border-bottom: 0.05em solid #A7A9AC;
+  /*margin-bottom: 1em;*/
+  /*padding-bottom: 1em;*/
+  /*border-bottom: 0.05em solid #A7A9AC;*/
 }
 
 nav a:hover, nav a:focus {
@@ -159,7 +159,7 @@ label{
 }
 
 input {
-    width: 50%;
+    /*width: 50%;*/
     padding: 0.5em 0.5em;
     margin: 0.5em 0;
     border: 0.2em solid #5a95b3;
@@ -219,45 +219,26 @@ color:#5a95b3;
 	border-radius: 0.1rem;
 }
 
+@media (max-width: 60.18em){
+  ul.web_navigation li{
+    padding: 0.1em 1.5em;
+  }
 
-@media (max-width: 31em){
-  .CartIcon{
+  .cart_nav{
     display: none;
   }
-  .web_nav{
-    padding: 0.5em;
+}
+
+@media (max-width: 70.68em){
+  ul.web_navigation li{
+    padding: 0.1em 3.5em;
+  }
+
+  .cart_nav{
+    display: none;
   }
 }
 
-@media (min-width: 31.1em){
-  .web_nav{
-    padding: 0.3em;
-  }
-
-  .CartIcon{
-    display: right;
-  }
-}
-
-@media (min-width: 38em){
-  .web_nav{
-    padding: 0.1em 0.5em;
-  }
-
-  .CartIcon{
-    display: right;
-  }
-}
-
-@media (min-width: 47em){
-  .web_nav{
-    padding: 0.1em 1em;
-  }
-
-  .CartIcon{
-    display: right;
-  }
-}
 
 
 
@@ -268,12 +249,7 @@ color:#5a95b3;
 }*/
 
 
-.CartIcon{
- margin-bottom:-0.3em;
- margin-left:6em;
- height:23px;
- width:27px;
-}
+
 
 /*styling for product/service listing*/
 .box{
@@ -282,7 +258,7 @@ flex-wrap: wrap;
 }
 
 img {
-  height: 15em;
+  /*height: 15em;*/
 }
 
 
@@ -356,16 +332,16 @@ text-align: center;
 .grid1_0, .grid1_1, .grid2_1, .grid3_1, .grid4_3, .grid4_1 {
 
   float: left;
-  text-align: center;
-  background-color: #D1D3D4;
+  /*text-align: center;*/
+  /*background-color: #D1D3D4;*/
   margin-bottom: 0.2em;
   width: 100%;
-  border-right: solid;
-  border-color: white;
+  /*border-right: solid;*/
+  /*border-color: gray;*/
 }
 
 
-@media (min-width: 38em){
+@media (min-width: 56.25em){
   .grid1_1 {
     width: 50%;
   }
@@ -379,10 +355,11 @@ text-align: center;
   }
 
   .grid4_3{
-    width: 75%;
-  }
-  
-  .grid4_1{
-    width: 25%;
-  }
+   width: 75%;
+ }
+
+ .grid4_1{
+   width: 25%;
+ }
+
 }
