@@ -83,6 +83,7 @@ img {
 }
 
 .new_products {
+
   display:flex;
   justify-content: space-between;
   border: thin solid #DDDDDD;
@@ -101,6 +102,18 @@ img {
 }
 
 .promotion_products {
+	 display: -webkit-flex;
+	 display: -ms-flexbox;
+	 display: flex;
+
+	 -webkit-flex-wrap: wrap;
+	 -ms-flex-wrap: wrap;
+	 flex-wrap: wrap;
+
+	 -webkit-justify-content: center;
+	 -ms-justify-content: center;
+	 justify-content: center;
+
   text-align: center;
   border: thin solid #DDDDDD;
   margin: 0.5em;
@@ -169,7 +182,7 @@ float: left;
 }
 
 .detail_product{
-display: -webkit-flex;
+ display: -webkit-flex;
  display: -ms-flexbox;
  display: flex;
 

@@ -4,13 +4,35 @@
     <title>Shopping Cart</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main-project2.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <!-- <link rel="stylesheet" href="css/main-project2.css"> -->
 
   </head>
   <body>
 
-    <h1>Here is what you are getting</h1>
+    <nav class="nav_main_wrap">
+
+      <!-- <div class="web_navigation"> -->
+
+      <ul class="web_navigation">
+        <li><img class="logoImage" src="image/logo.png" alt="logo"></li>
+        <li class="nav_link"><a href="home.html">Home</a></li>
+        <li class="nav_link"><a href="#">Showroom</a></li>
+        <li class="nav_link"><a href="products.html">Products</a></li>
+        <li class="nav_link"><a href="#">Contact</a></li>
+      </ul>
+
+      <div class="cart_nav">
+        <input type="search" id="mySearch" name="q"placeholder="Search">
+        <img class="CartIcon" src="image/cart.png" alt="cart">
+      </div>
+      <!-- </div> -->
+    </nav>
+
+    <div class="grid1_0">
+      <h1>Here is what you are getting</h1>
+    </div>
     <div class="flex-container grid1_0">
 
       <div class="flex-item grid3_1">
@@ -61,11 +83,11 @@
 
     <div class="flex-container-pay">
 
-      <div class="flex-item-pay">
+      <div class="flex-item-pay grid1_0">
         <h3>Subtotal: $ 220</h3>
       </div>
 
-      <div class="flex-item-pay">
+      <div class="flex-item-pay grid1_0">
         <a class="flex-item-button" href="shipping_information.html">Pay Now</a>
       </div>
 

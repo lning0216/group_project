@@ -3,6 +3,10 @@
 }
 
 /*Shopping Cart Page layout */
+.shopping_cart_title{
+	justify-content: center;
+}
+
 .flex-container{
   display: -webkit-flex;
   display: -ms-flexbox;
