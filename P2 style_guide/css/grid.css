@@ -99,6 +99,13 @@ color: #white;
 
 }
 
+.flex-container-pay{
+	text-align: right;
+	margin-right: 5em;
+}
+
+
+
 /*submenu layout 50%*/
 .flex-container-pay-now-sub{
 	padding-left: 2em;
