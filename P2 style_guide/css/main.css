@@ -224,33 +224,15 @@ color:#5a95b3;
   .CartIcon{
     display: none;
   }
-  .web_nav{
+  .web_navigation{
     padding: 0.5em;
   }
 }
 
-@media (min-width: 31.1em){
-  .web_nav{
-    padding: 0.3em;
-  }
 
-  .CartIcon{
-    display: right;
-  }
-}
-
-@media (min-width: 38em){
-  .web_nav{
-    padding: 0.1em 0.5em;
-  }
-
-  .CartIcon{
-    display: right;
-  }
-}
 
 @media (min-width: 47em){
-  .web_nav{
+  .web_navigation{
     padding: 0.1em 1em;
   }
 
