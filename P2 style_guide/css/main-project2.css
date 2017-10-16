@@ -363,6 +363,10 @@ text-align: center;
   /*border-right: solid;*/
   /*border-color: gray;*/
 }
+.grid1_0 .banner img{
+  width:100%;
+  height:auto;
+}
 
 
 @media (min-width: 41.25em){
