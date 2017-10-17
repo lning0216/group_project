@@ -32,11 +32,6 @@ code{
   color:#808285;
 }
 
-nav {
-  /*margin-bottom: 1em;*/
-  /*padding-bottom: 1em;*/
-  /*border-bottom: 0.05em solid #A7A9AC;*/
-}
 
 nav a:hover, nav a:focus {
   text-decoration: none;
@@ -159,12 +154,13 @@ label{
 }
 
 input {
-    /*width: 50%;*/
+    /*width: 94%;*/
     padding: 0.5em 0.5em;
     margin: 0.5em 0;
     border: 0.2em solid #5a95b3;
     border-radius: 0.5em;
 }
+
 
 /*
   TEXT ELEMENTS -------------------
@@ -264,25 +260,10 @@ color:#5a95b3;
 
 
 
-
-/*.logoImage{
-  margin-bottom: -0.5em;
-  height:69.75px;
-  width:94.5px;
-}*/
-
-
-
-
 /*styling for product/service listing*/
 .box{
 display:flex;
 flex-wrap: wrap;
-}
-
-img {
-  /*height: auto;
-  max-width: 100%;*/
 }
 
 
@@ -353,16 +334,18 @@ text-align: center;
 
 
 /*styling for grid structure*/
+
 .grid1_0, .grid1_1, .grid2_1, .grid3_1, .grid4_3, .grid4_1 {
 
   float: left;
-  /*text-align: center;*/
-  /*background-color: #D1D3D4;*/
+  /*text-align: center;
+  background-color: #D1D3D4;*/
   margin-bottom: 0.2em;
   width: 100%;
-  /*border-right: solid;*/
-  /*border-color: gray;*/
+  /*border-right: solid;
+  border-color: white;*/
 }
+
 .grid1_0 .banner img{
   width:100%;
   height:auto;
