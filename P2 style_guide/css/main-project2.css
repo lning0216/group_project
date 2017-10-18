@@ -226,10 +226,6 @@ color:#5a95b3;
   ul.web_navigation li{
     padding: 0.1em 3.5em;
   }
-
-  .cart_nav{
-    display: none;
-  }
 }
 
 
@@ -335,7 +331,7 @@ text-align: center;
 
 /*styling for grid structure*/
 
-.grid1_0, .grid1_1, .grid2_1, .grid3_1, .grid4_3, .grid4_1 {
+.grid1_0, .grid1_1, .grid2_1, .grid3_1, .grid4_3, .grid4_1  {
 
   float: left;
   /*text-align: center;
@@ -346,11 +342,16 @@ text-align: center;
   border-color: white;*/
 }
 
-.grid1_0 .banner img{
-  width:100%;
-  height:auto;
+.banner img{
+  width: 100%;
+  height: auto;
 }
 
+.showroom_image img{
+  width: 100%;
+  height: auto;
+  padding: 2em;
+}
 
 @media (min-width: 41.25em){
   .grid3_1 {
@@ -378,5 +379,6 @@ text-align: center;
  .grid4_1{
    width: 25%;
  }
+
 
 }
