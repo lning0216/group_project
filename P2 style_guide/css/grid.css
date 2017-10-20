@@ -106,8 +106,9 @@ color: #white;
   width: 33.33%;
   align-items:right;
   text-align: center;
-	border: 0.1em solid white;
-	background-color:#D2D3D4;
+	border: thin solid #D2D3D4;
+	/*border: 0.1em solid white;*/
+	/*background-color:#D2D3D4;*/
 
 }
 
@@ -119,8 +120,9 @@ color: #white;
 	width:50%;
 	align-items:right;
 	text-align: left;
-	border: 0.1em solid white;
-	background-color:#D2D3D4;
+	border: thin solid #D2D3D4;
+	/*border: 0.1em solid white;*/
+	/*background-color:#D2D3D4;*/
   margin-top: 2em;
 }
 
