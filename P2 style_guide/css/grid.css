@@ -179,16 +179,16 @@ ul.web_navigation li {
 }
 
 .CartIcon{
-  margin-left: 1em;
-  margin-bottom: -0.5em;
-  height:25px;
+  margin-left: 0.5em;
+  margin-bottom: -0.7em;
+  height:1.8em;
   width: auto;
 }
 
 .logoImage{
-  margin-bottom: -0.5em;
-  height:69.75px;
-  width:94.5px;
+  /*margin-bottom: -0.5em;*/
+  height:3em;
+  width:auto;
 }
 
 
@@ -271,19 +271,16 @@ margin-left: 1em;
 
 /****showroom*****/
 
-.showroom_description{
+.showroom_container{
 	display: flex;
-	margin-left: 5em;
+	flex-wrap: wrap;
+
 }
 
-.showroom_detail_description1 h4{
-	text-align: right;
-	margin-right: 2em;
-	color: #9A9B9E;
-}
 
-.showroom_detail_description2 h4{
-	text-align: left;
+
+.showroom_description{
+	align-content: flex-end;
 }
 
 
