@@ -286,13 +286,6 @@ color: #white;
 }
 
 
-
-.cart_nav{
-  /*justify-content: flex-end;*/
-  float: right;
-  margin-right: 2em;
-}
-
 .CartIcon{
   margin-left: 0.5em;
   margin-bottom: -0.7em;
@@ -335,6 +328,13 @@ img {
 	.new_products{
 		display:flex;
 	}
+
+	.cart_nav{
+	  float: right;
+	  margin-right: 2em;
+		margin-top: -2em;
+	}
+
 }
 .product_detail_image {
 	height: auto;
