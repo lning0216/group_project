@@ -273,6 +273,17 @@ figcaption{
 text-align: center;
 }
 
+.description_type{
+  list-style-type: none;
+  color:gray;
+  text-align: right;
+
+}
+
+.description_detail{
+  list-style-type: none;
+}
+
 
 /*styling for color swathces*/
 .Color1{
@@ -349,9 +360,9 @@ text-align: center;
 }
 
 .showroom_image img{
-  width: 80%;
+  width: 100%;
   height: auto;
-  /*padding: 2em;*/
+
 }
 
 @media (min-width: 41.25em){
