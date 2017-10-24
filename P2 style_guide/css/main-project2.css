@@ -344,14 +344,14 @@ text-align: center;
 }
 
 .banner img{
-  width: 100%;
+  max-width: 82em;
   height: auto;
 }
 
 .showroom_image img{
   width: 80%;
   height: auto;
-  padding: 2em;
+  /*padding: 2em;*/
 }
 
 @media (min-width: 41.25em){

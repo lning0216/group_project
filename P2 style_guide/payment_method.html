@@ -12,17 +12,25 @@
 
     <nav class="nav_main_wrap">
       <ul class="web_navigation web_nav">
-        <li><img class="logoImage" src="image/logo.png" alt="logo"></li>
+        <li><img class="logoImage" src="image/logo.png" alt="an illustration of a chair with the word simplive representing the company's logo"></li>
         <li class="nav_link"><a href="home.html">Home</a></li>
         <li class="nav_link"><a href="showroom.html">Showroom</a></li>
-        <li class="nav_link"><a href="products.html">Products</a></li>
+          <div class="dropdown">
+            <li class="nav_link"><a href="products.html">Products</a></li>
+              <div class="dropdown-content">
+                <a href="products_bed.html">Bed</a>
+                <a href="products_chair.html">Chair</a>
+                <a href="products_table.html">Table</a>
+              </div>
+          </div>
+
         <li class="nav_link"><a href="Contact.html">Contact</a></li>
       </ul>
 
       <div class="cart_nav">
-        <input type="search" id="mySearch" name="q"placeholder="Search">
+        <input type="search" id="mySearch" name="q" placeholder="Search">
         <a href="shopping_cart.html">
-          <img class="CartIcon" src="image/cart.png" alt="cart">
+          <img class="CartIcon" src="image/cart.png" alt="a shopping cart icon">
         </a>
       </div>
     </nav>
@@ -50,20 +58,20 @@
 
             <div class = "allignment">
               <form class="lables">
-                <input type="text" name=""value="" placeholder="Card Number">
+                <input type="text" placeholder="Card Number">
               </form>
             </div>
 
-            <form class="lables" placeholder="Cardholder Name">
-              <input type="text" name=""value="" placeholder="Expired Date:mm/yy">
+            <form class="lables">
+              <input type="text" placeholder="Expired Date:mm/yy">
             </form>
 
             <form class="lables">
-              <input type="text" name=""value="" placeholder="Card Number">
+              <input type="text" placeholder="Card Number">
             </form>
 
             <form class="lables">
-              <input type="text" name=""value="" placeholder="Code">
+              <input type="text" placeholder="Code">
             </form>
       </div>
 
@@ -74,20 +82,22 @@
             <input type="radio">  Same as shipping address<br>
           </form>
 
+
+
           <form class="lables">
-            <input type="text" name=""value="" placeholder="City">
+            <input type="text" placeholder="Address1">
           </form>
 
           <form class="lables">
-            <input type="text" name=""value="" placeholder="Address1">
+            <input type="text" placeholder="Address2">
           </form>
 
           <form class="lables">
-            <input type="text" name=""value="" placeholder="Address2">
+            <input type="text" placeholder="City">
           </form>
 
           <form class="lables">
-          <input type="text" name=""value="" placeholder="Post Code">
+          <input type="text" placeholder="Post Code">
           </form>
 
 

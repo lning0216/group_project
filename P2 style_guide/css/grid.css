@@ -2,6 +2,70 @@
 	box-sizing: border-box;
 }
 
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+		margin-top: -1.5em;
+    position: absolute;
+
+
+}
+
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	margin-left: 1.7em;
+	/*margin-top: 0.4em;*/
+
+	padding-left:1em;
+	padding-right: 1em;
+	padding-top: 1em;
+	/*padding-bottom: : 1em;*/
+	/*padding-top: 0.5em;*/
+
+	background-color: white;
+
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+color:gray;
+padding-left:1em;
+padding-right: 1em;
+padding-top: 1em;
+border-bottom: 0.1em solid gray;
+border-radius: 0.1rem;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    /*background-color: #3e8e41;*/
+}
+
+
+
+
+
 /*Shopping Cart Page layout */
 .shopping_cart_title{
 	justify-content: center;
@@ -20,8 +84,12 @@
 	-ms-justify-content: center;
 	justify-content: center;
 	/*margin: 2em 0em;*/
-	padding: 2em;
+	padding-top: 2em;
+	padding-right: 12em;
+	padding-left: 12em;
+
   }
+
 
 .flex-item{
 	/*-webkit-flex: 1 1 400px;
@@ -148,29 +216,76 @@ color: #white;
 /****kristy Part*****/
 
 /*navigation*/
-.nav_main_wrap{
-  width: 100%;
+/* screen size lager than 37.626 run below code, which means hide menu button */
+@media (min-width: 43.06em){
+	#nav-toggle.hidden{
+    	visibility: hidden;
+    	display: none;
+	}
+
+
+	.nav_main_wrap{
+  		width: 100%;
+	}
+
+	.nav_main_wrap input{
+		border: 0.2em solid #D2D3D4;
+		border-radius: 0.5em;
+	}
+
+	.web_navigation{
+	  	float: left;
+		display: flex;
+		flex-wrap: flex;
+		margin-left: 6em;
+		margin-top: -3em;
+	}
+
+	.nav_link{
+  		margin:2em 0em;
+	}
+
+	ul.web_navigation li {
+  		list-style-type: none;
+  		padding:0em 2em;
+	}
+
 }
 
-.nav_main_wrap input{
-	border: 0.2em solid #D2D3D4;
-	border-radius: 0.5em;
+/* screen size less than 37.626 run below code, which means show menu button */
+@media (max-width: 43.06em){
+	#nav-items.hidden{
+		visibility: hidden;
+		display: none;
+	}
+
+   #nav-toggle{
+		 background-color: white;
+		 border: 0.2em solid #808285;
+ 		 border-radius: 0.5em;
+		 float: right;
+		 color: #6D6E71;
+		 margin-top: 2em;
+		 margin-right: 1.5em;
+		 padding: 0.5em;
+	 }
+
+	 .dropdown-content{
+ 		margin-left: 4.5em;
+    margin-top: -2.5em;
+ 	}
+
+
+	ul.web_navigation li {
+		width: 100%;
+		list-style-type: none;
+		padding: 0.5em;
+		margin-left: 1.5em;
+	}
+
 }
 
-.web_navigation{
-  float: left;
-	display: flex;
-	flex-wrap: flex;
-}
 
-.nav_link{
-  margin:2em 0em;
-}
-
-ul.web_navigation li {
-  list-style-type: none;
-  padding:0em 2em;
-}
 
 .cart_nav{
   /*justify-content: flex-end;*/
@@ -199,8 +314,9 @@ h1{
 }
 
 img {
-  height: 13em;
-  width:auto;
+  max-width: 15em;
+	height: auto;
+
 }
 
 .home_container{
@@ -331,8 +447,8 @@ margin: 2em;
 }
 
 .detail_imgae{
-  height: 22em;
-  width: auto;
+  max-width: 18em;
+  height:auto;
   margin-left:  -1.5em;
 }
 
@@ -394,3 +510,10 @@ margin: 2em;
 		max-width: 100%;
 		margin-top: 2em;
 	}
+
+.footage{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 4em;
+}

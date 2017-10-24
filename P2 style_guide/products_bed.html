@@ -14,39 +14,49 @@
   <nav class="nav_main_wrap">
 
     <ul class="web_navigation">
-      <li><img class="logoImage" src="image/logo.png" alt="logo"></li>
+      <li><img class="logoImage" src="image/logo.png" alt="an illustration of a chair with the word simplive representing the company's logo"></li>
       <li class="nav_link"><a href="home.html">Home</a></li>
       <li class="nav_link"><a href="showroom.html">Showroom</a></li>
-      <li class="nav_link"><a href="products.html">Products</a></li>
+        <div class="dropdown">
+          <li class="nav_link"><a href="products.html">Products</a></li>
+            <div class="dropdown-content">
+              <a href="products_bed.html">Bed</a>
+              <a href="products_chair.html">Chair</a>
+              <a href="products_table.html">Table</a>
+            </div>
+        </div>
+
       <li class="nav_link"><a href="contact.html">Contact</a></li>
     </ul>
 
     <div class="cart_nav">
       <input type="search" id="mySearch" name="q"placeholder="Search">
         <a href="shopping_cart.html">
-          <img class="CartIcon" src="image/cart.png" alt="cart">
+          <img class="CartIcon" src="image/cart.png" alt="a shopping cart icon">
         </a>
     <!-- </div> -->
   </nav>
 
 
 <!-- product_list -->
-    <div class="grid1_0">
-      <h1> Products </h1>
-    </div>
 
-    <div class="home_container">
-      <div class="grid1_0">
-        <div class="banner">
-          <img src="image/banner-bed.png" alt="a banner with different chairs">
-        </div>
+
+
+    <!-- <div class="grid1_0"> -->
+      <div class="banner">
+        <img src="image/banner-bed.png" alt="a room with white furniture including two carbinet, a bed and a nightstand">
       </div>
+    <!-- </div> -->
+
+
+    <div class="grid1_0">
+      <h1> Beds </h1>
     </div>
 
       <div class="grid3_1">
         <div class="promotion_products" onclick="location.href='detail_Product.html'">
           <div class="promotion_image">
-            <img src="image/bed.jpg" alt="armchair merano">
+            <img src="image/bed.jpg" alt="a bed with frames on the head of the bed">
           </div>
 
           <div class="product_description">
@@ -54,10 +64,10 @@
                 <h2>Frame Bed with Arms</h2>
               </div>
               <div class="grid4_1">
-                <img class="star" src="image/star.png" alt="like">
+                <img class="star" src="image/star.png" alt="a star">
               </div>
              <div class="product_text">
-                <P>$100</p>
+                <P>$800</p>
                 <p>Frame is an upholstered bed supported by a wooden frame structure to which various accessories can be clipped...</p>
              </div>
           </div>
@@ -67,19 +77,19 @@
       <div class="grid3_1">
         <div class="promotion_products" onclick="location.href='detail_Product.html'">
           <div class="promotion_image">
-            <img src="image/chair_merano.jpg" alt="armchair merano">
+            <img src="image/companionsbed.png" alt="a bed with bamboo headboard">
           </div>
 
           <div class="product_description">
               <div class="grid4_3">
-                <h2>Lorem Ipsum</h2>
+                <h2>Companions Bed</h2>
               </div>
               <div class="grid4_1">
-                <img class="star" src="image/star.png" alt="like">
+                <img class="star" src="image/star.png" alt="a star">
               </div>
              <div class="product_text">
-                <P>$100</p>
-                <p>Frame is an upholstered bed supported by a wooden frame structure to which various accessories can be clipped...</p>
+                <P>$950</p>
+                <p>The Companions is made from solid wood, is reassuringly familiar but carefully detailed. It is designed to support daily life.</p>
             </div>
           </div>
         </div>
@@ -88,19 +98,19 @@
       <div class="grid3_1">
         <div class="promotion_products" onclick="location.href='detail_Product.html'">
           <div class="promotion_image">
-            <img src="image/chair_merano.jpg" alt="armchair merano">
+            <img src="image/capo_bed.jpg" alt="a short bed with soft headboard">
           </div>
 
           <div class="product_description">
               <div class="grid4_3">
-                <h2>Lorem Ipsum</h2>
+                <h2>Capo Bed</h2>
               </div>
               <div class="grid4_1">
-                <img class="star" src="image/star.png" alt="like">
+                <img class="star" src="image/star.png" alt="a star">
               </div>
            <div class="product_text">
-              <P >$100</p>
-              <p>Frame is an upholstered bed supported by a wooden frame structure to which various accessories can be clipped...</p>
+              <P >$650</p>
+              <p>The Capo is a well-balanced equilibrium between sophistication and utility, between contemporary aesthetic.</p>
            </div>
           </div>
         </div>
@@ -109,111 +119,24 @@
       <div class="grid3_1">
         <div class="promotion_products" onclick="location.href='detail_Product.html'">
           <div class="promotion_image">
-            <img src="image/chair_merano.jpg" alt="armchair merano">
+            <img src="image/union_bed.jpg" alt="a bed with large head board and small tailstock">
           </div>
 
           <div class="product_description">
               <div class="grid4_3">
-                <h2>Lorem Ipsum</h2>
+                <h2>Union Bed</h2>
               </div>
               <div class="grid4_1">
                 <img class="star" src="image/star.png" alt="like">
               </div>
            <div class="product_text">
-              <P >$100</p>
-              <p>Frame is an upholstered bed supported by a wooden frame structure to which various accessories can be clipped...</p>
+              <P >$1000</p>
+              <p>Union bed is made of tactile, natural materials, making use of traditional craft techniques alongside modern technology. </p>
            </div>
           </div>
         </div>
       </div>
 
-
-
-      <!-- ****second line***** -->
-      <div class="grid3_1">
-        <div class="promotion_products" onclick="location.href='detail_Product.html'">
-          <div class="promotion_image">
-            <img src="image/chair_merano.jpg" alt="armchair merano">
-          </div>
-
-          <div class="product_description">
-              <div class="product_item_title grid4_3">
-                <h2>Lorem Ipsum</h2>
-              </div>
-              <div class="grid4_1">
-                <img class="star" src="image/star.png" alt="like">
-              </div>
-           <div class="product_text">
-              <P >$100</p>
-              <p>Frame is an upholstered bed supported by a wooden frame structure to which various accessories can be clipped...</p>
-           </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="grid3_1">
-        <div class="promotion_products" onclick="location.href='detail_Product.html'">
-          <div class="promotion_image">
-            <img src="image/chair_merano.jpg" alt="armchair merano">
-          </div>
-
-          <div class="product_description">
-              <div class="grid4_3">
-                <h2>Lorem Ipsum</h2>
-              </div>
-              <div class="grid4_1">
-                <img class="star" src="image/star.png" alt="like">
-              </div>
-           <div class="product_text">
-              <P >$100</p>
-              <p>Frame is an upholstered bed supported by a wooden frame structure to which various accessories can be clipped...</p>
-           </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="grid3_1">
-        <div class="promotion_products" onclick="location.href='detail_Product.html'">
-          <div class="promotion_image">
-            <img src="image/chair_merano.jpg" alt="armchair merano">
-          </div>
-
-          <div class="product_description">
-              <div class="grid4_3">
-                <h2>Lorem Ipsum</h2>
-              </div>
-              <div class="grid4_1">
-                <img class="star" src="image/star.png" alt="like">
-              </div>
-           <div class="product_text">
-              <P >$100</p>
-              <p>Frame is an upholstered bed supported by a wooden frame structure to which various accessories can be clipped...</p>
-           </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="grid3_1">
-        <div class="promotion_products" onclick="location.href='detail_Product.html'">
-          <div class="promotion_image">
-            <img src="image/chair_merano.jpg" alt="armchair merano">
-          </div>
-
-          <div class="product_description">
-              <div class="grid4_3">
-                <h2>Lorem Ipsum</h2>
-              </div>
-              <div class="grid4_1">
-                <img class="star" src="image/star.png" alt="like">
-              </div>
-           <div class="product_text">
-              <P >$100</p>
-              <p>Frame is an upholstered bed supported by a wooden frame structure to which various accessories can be clipped...</p>
-           </div>
-          </div>
-        </div>
-      </div>
 
 
 </body>
