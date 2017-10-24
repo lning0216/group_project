@@ -11,12 +11,10 @@
 </head>
 <body>
 
-  <nav class="nav_main_wrap">
-
-    <!-- <div class="web_navigation"> -->
-
-    <ul class="web_navigation">
-      <li><img class="logoImage" src="image/logo.png" alt="an illustration of a chair with the word simplive representing the company's logo"></li>
+  <img class="logoImage" src="image/logo.png" alt="an illustration of a chair with the word simplive representing the company's logo">
+  <button id="nav-toggle" class="hidden" aria-hidden="true" aria-controls="nav-items">MENU</button>
+  <nav id="nav-items" class="nav_main_wrap hidden">
+    <ul class="web_navigation web_nav">
       <li class="nav_link"><a href="home.html">Home</a></li>
       <li class="nav_link"><a href="showroom.html">Showroom</a></li>
         <div class="dropdown">
@@ -28,14 +26,14 @@
             </div>
         </div>
 
-      <li class="nav_link"><a href="contact.html">Contact</a></li>
+      <li class="nav_link"><a href="Contact.html">Contact</a></li>
     </ul>
 
     <div class="cart_nav">
-      <input type="search" id="mySearch" name="q"placeholder="Search">
-        <a href="shopping_cart.html">
-          <img class="CartIcon" src="image/cart.png" alt="a shopping cart icon">
-        </a>
+      <input type="search" id="mySearch" name="q" placeholder="Search">
+       <a href="shopping_cart.html">
+         <img class="CartIcon" src="image/cart.png" alt="a shopping cart icon">
+       </a>
     </div>
   </nav>
 
@@ -82,8 +80,6 @@
 
       </div>
     </div>
-  <!-- </div> -->
-
-
+   <script src="js/hamburger.js"></script>
 </body>
 </html>

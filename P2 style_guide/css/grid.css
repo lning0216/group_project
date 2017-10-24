@@ -324,13 +324,18 @@ img {
 }
 
 .new_products {
-  display:flex;
+  /*display:flex;*/
   justify-content: space-between;
   border: thin solid #DDDDDD;
   padding: 1em;
   margin: 0.5em;
   }
 
+@media (min-width:38em){
+	.new_products{
+		display:flex;
+	}
+}
 .product_detail_image {
 	height: auto;
 	max-width: 100%;
@@ -447,7 +452,7 @@ margin: 2em;
 }
 
 .detail_imgae{
-  max-width: 18em;
+  max-width: 100%;
   height:auto;
   margin-left:  -1.5em;
 }

@@ -10,12 +10,12 @@
   </head>
   <body>
 
-    <nav class="nav_main_wrap">
+    <img class="logoImage" src="image/logo.png" alt="an illustration of a chair with the word simplive representing the company's logo">
+    <button id="nav-toggle" class="hidden" aria-hidden="true" aria-controls="nav-items">MENU</button>
+    <nav id="nav-items" class="nav_main_wrap hidden">
       <ul class="web_navigation web_nav">
-        <li><img class="logoImage" src="image/logo.png" alt="an illustration of a chair with the word simplive representing the company's logo"></li>
         <li class="nav_link"><a href="home.html">Home</a></li>
         <li class="nav_link"><a href="showroom.html">Showroom</a></li>
-
           <div class="dropdown">
             <li class="nav_link"><a href="products.html">Products</a></li>
               <div class="dropdown-content">
@@ -25,18 +25,16 @@
               </div>
           </div>
 
-
         <li class="nav_link"><a href="Contact.html">Contact</a></li>
       </ul>
 
       <div class="cart_nav">
-        <input type="search" id="mySearch" name="q"placeholder="Search">
-          <a href="shopping_cart.html">
-            <img class="CartIcon" src="image/cart.png" alt="a shopping cart icon">
-          </a>
+        <input type="search" id="mySearch" name="q" placeholder="Search">
+         <a href="shopping_cart.html">
+           <img class="CartIcon" src="image/cart.png" alt="a shopping cart icon">
+         </a>
       </div>
     </nav>
-
     <!-- <div class="grid1_0">
       <h1>Here is what you are getting</h1>
     </div> -->
@@ -110,6 +108,6 @@
 
 
 
-
+<script src="js/hamburger.js"></script>
   </body>
 </html>

@@ -344,7 +344,7 @@ text-align: center;
 }
 
 .banner img{
-  max-width: 82em;
+  max-width: 100%;
   height: auto;
 }
 
