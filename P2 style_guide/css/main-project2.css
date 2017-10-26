@@ -111,11 +111,12 @@ cite {
 
 /* Styling for the submit button */
 .button_submit {
-  padding: 0.5em 0.75em;
+  padding: 0.3em 0.5em;
   color: #FFF;
   background-color: #0189bb;
   border-radius: 0.25em;
   text-decoration: none;
+  float: right;
   /*-webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;*/
 }
@@ -374,7 +375,6 @@ text-align: center;
   .grid3_1 {
     width: 50%;
   }
-
 
 @media (min-width: 56.25em){
   .grid1_1 {
