@@ -168,10 +168,11 @@ input {
 }
 
 .textbox{
-  padding: 0.5em 0.5em;
-  margin: 0.5em 0;
+  padding-right: 43em;
+  padding-bottom: 15em;
   border:0.2em solid #D2D3D4;
   border-radius: 0.5em;
+  margin-top: -3em;
 
 }
 
@@ -181,8 +182,9 @@ input {
 */
 
 /* styyling for the bulleted lists */
-.bulleted_list {
-	color:#5a95b3;
+.bulleted_list li {
+	color: gray;
+  margin: 0.5em;
 }
 
 

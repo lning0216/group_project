@@ -585,3 +585,7 @@ footer{
 		justify-content: center;
 		/*text-align: right;*/
 	}
+
+.thought{
+	size: 30em;
+}
