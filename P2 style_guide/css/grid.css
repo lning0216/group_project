@@ -99,9 +99,20 @@ border-radius: 0.1rem;
 }
 
 .flex-item-pay{
+	display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 
-	text-align: center;
-	justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  -webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	/*text-align: right;*/
+	justify-content: flex-end;
+
 }
 
 .receipt img{
@@ -110,7 +121,7 @@ border-radius: 0.1rem;
 	margin-top: 5em;
 }
 
-/*.flex-item-button{
+.flex-item-button{
 	margin-top: 2em;
 	padding: 0.5em 0.75em;
 	color: #FFF;
@@ -118,7 +129,7 @@ border-radius: 0.1rem;
 	border-radius: 0.25em;
 	text-decoration: none;
 	text-align: center;
-}*/
+}
 
 
 .flex-item-image {
@@ -564,4 +575,22 @@ footer{
 		height: auto;
 		max-width: 100%;
 		margin-top: 2em;
+	}
+
+	/*contact_page*/
+	.contact_container{
+		display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display: flex;
+
+	  -webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+	  flex-wrap: wrap;
+
+	  -webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		/*text-align: right;*/
+
+
 	}
