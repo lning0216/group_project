@@ -578,7 +578,7 @@ footer{
 	}
 
 	/*contact_page*/
-	.contact_container{
+	.contact_container button{
 		display: -webkit-flex;
 	  display: -ms-flexbox;
 	  display: flex;
