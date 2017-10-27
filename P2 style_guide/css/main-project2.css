@@ -111,11 +111,12 @@ cite {
 
 /* Styling for the submit button */
 .button {
-  padding: 0.3em 0.5em;
+  padding: 0.5em 0.75em;
   color: #FFF;
   background-color: #0189bb;
   border-radius: 0.25em;
   text-decoration: none;
+  /*float: right;*/
   /*float: right;*/
   /*-webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;*/

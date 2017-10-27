@@ -110,7 +110,7 @@ border-radius: 0.1rem;
 	margin-top: 5em;
 }
 
-.flex-item-button{
+/*.flex-item-button{
 	margin-top: 2em;
 	padding: 0.5em 0.75em;
 	color: #FFF;
@@ -118,7 +118,7 @@ border-radius: 0.1rem;
 	border-radius: 0.25em;
 	text-decoration: none;
 	text-align: center;
-}
+}*/
 
 
 .flex-item-image {
@@ -164,7 +164,9 @@ color: #white;
 }
 
 .lables input{
-  width: 94%;
+  /*width: 94%;*/
+	width: 13em;
+	margin-right: 1em;
 }
 
 .flex-item-pay-now{
@@ -214,7 +216,8 @@ color: #white;
 /****kristy Part*****/
 
 /*navigation*/
-/* screen size lager than 37.626 run below code, which means hide menu button */
+/* screen size lager than 43,
+which means hide menu button */
 @media (min-width: 43.06em){
 	#nav-toggle.hidden{
     	visibility: hidden;
@@ -248,7 +251,8 @@ color: #white;
 
 }
 
-/* screen size less than 37.626 run below code, which means show menu button */
+/* screen size less than 43.06
+which means show menu button */
 @media (max-width: 43.06em){
 	#nav-items.hidden{
 		visibility: hidden;
@@ -296,8 +300,10 @@ color: #white;
 .CartIcon{
   margin-left: 0.5em;
   margin-bottom: -0.7em;
-  width: 6%;
-  height: auto;
+  /*width: 6%;
+  height: auto;*/
+	height:1.8em;
+  width: auto;
 }
 
 
@@ -421,7 +427,7 @@ margin-left: 1em;
   z-index: 999;
 }
 .icon_logo {
-	width: 3%;
+	width: 2em;
 	height:auto;
 }
 
