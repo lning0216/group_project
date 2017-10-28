@@ -15,7 +15,7 @@
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
-		margin-top: -1.5em;
+		margin-left:-2em;
     position: absolute;
 }
 
@@ -289,8 +289,8 @@ which means show menu button */
 	 }
 
 	 .dropdown-content{
- 		margin-left: 4.5em;
-    margin-top: -2.5em;
+ 		margin-left: 2.5em;
+    margin-top: -1.5em;
  	}
 
 
