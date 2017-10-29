@@ -128,7 +128,7 @@ cite {
   background-color:#90cad5;
   /*border: 0.1em solid;*/
   /*border-color: #5a95b3;*/
-  color: #white;
+  color: #FFFFFF;
   /*padding: 0.4em 0.65em;*/
 }
 
@@ -362,6 +362,7 @@ text-align: center;
   .grid3_1 {
     width: 50%;
   }
+}
 
 @media (min-width: 56.25em){
   .grid1_1 {

@@ -162,7 +162,7 @@ border-radius: 0.1rem;
 background-color:#90cad5;
 /*border: 0.1em solid;*/
 /*border-color: #5a95b3;*/
-color: #white;
+color: #FFFFFF;
 }
 
 .allignment{
@@ -184,7 +184,7 @@ color: #white;
 .flex-item-pay-now{
   padding: 2em;
   width: 33.33%;
-  align-items:right;
+  align-items: flex-end;
   text-align: center;
 	border: thin solid #D2D3D4;
 	/*border: 0.1em solid white;*/
@@ -198,7 +198,7 @@ color: #white;
 	padding-left: 2em;
 	padding-bottom: 2em;
 	width:50%;
-	align-items:right;
+	align-items:flex-end;
 	text-align: left;
 	border: thin solid #D2D3D4;
 	/*border: 0.1em solid white;*/
@@ -217,7 +217,7 @@ color: #white;
   padding: 2em;
   width:100%;
   /*max-height: 10em;*/
-  align-items:right;
+  align-items: flex-end;
   text-align: center;
 
 }
@@ -484,7 +484,7 @@ float: left;
 /********Detail_Product Page*******/
 
 .deatil_Product_title{
-  margin-top: : 2em ;
+  margin-top: 2em ;
   margin-left:  3.5em;
 }
 
@@ -619,9 +619,5 @@ margin: 2em;
 	  -webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		/*text-align: right;*/
 	}
-
-.thought{
-	size: 30em;
 }
