@@ -124,33 +124,15 @@ cite {
   transition: background-color 0.5s ease-out;*/
 }
 
-.button_submit:hover, .button_submit:focus {
+.button:hover, .button:focus {
   background-color:#90cad5;
   /*border: 0.1em solid;*/
   /*border-color: #5a95b3;*/
-  color: #white;
+  color: #FFFFFF;
   /*padding: 0.4em 0.65em;*/
 }
 
 
-/* Styling for the reset button */
-.button_reset {
-  padding: 0.5em 0.75em;
-  color: #FFF;
-  background-color: #bfa277;
-  border-radius: 0.25em;
-  text-decoration: none;
-  /*-webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;*/
-}
-
-.button_reset:hover, .button_reset:focus {
-  background-color:#e2d6a8;
-  /*border: 0.1em solid;
-  border-color: #bfa277;*/
-  color: #white;
-  /*padding: 0.4em 0.65em;*/
-}
 
 
 /* Styling for the  text input field and a label */
@@ -170,14 +152,6 @@ input {
 
 }
 
-.textbox{
-  padding-right: 43em;
-  padding-bottom: 15em;
-  border:0.2em solid #D2D3D4;
-  border-radius: 0.5em;
-  margin-top: -3em;
-
-}
 
 
 /*
@@ -380,6 +354,7 @@ text-align: center;
   .grid3_1 {
     width: 50%;
   }
+}
 
 @media (min-width: 56.25em){
   .grid1_1 {
